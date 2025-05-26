@@ -4,6 +4,10 @@ import { useState, useEffect } from 'react'
 import AboutPage from '../about/page'
 import { useRouter } from 'next/navigation'
 
+interface HomePageProps {
+  onScrollMoreClick: () => void;
+}
+
 export default function HomePage() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 })
   const [showAbout, setShowAbout] = useState(false)
