@@ -126,7 +126,7 @@ import AboutPage from '../about/page'
 import { useRouter } from 'next/navigation'
 
 interface HomePageProps {
-  onScrollMoreClick?: () => void
+  onScrollMoreClick?: () => void;
 }
 
 export default function HomePage({ onScrollMoreClick }: HomePageProps) {
