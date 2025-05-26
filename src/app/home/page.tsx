@@ -119,6 +119,36 @@
 
 
 
+// 'use client'
+
+// import { useState, useEffect } from 'react'
+// import AboutPage from '../about/page'
+// import { useRouter } from 'next/navigation'
+
+// interface HomePageProps {
+//   onScrollMoreClick?: () => void;
+// }
+
+// export default function HomePage({ onScrollMoreClick }: HomePageProps) {
+//   const [mousePos, setMousePos] = useState({ x: 0, y: 0 })
+//   const [showAbout, setShowAbout] = useState(false)
+//   const router = useRouter()
+
+//   useEffect(() => {
+//     const updateMouse = (e: MouseEvent) => {
+//       setMousePos({ x: e.clientX, y: e.clientY })
+//     }
+//     window.addEventListener('mousemove', updateMouse)
+//     return () => window.removeEventListener('mousemove', updateMouse)
+//   }, [])
+
+//   const handleScrollMore = () => {
+//     setShowAbout(true)
+//     router.push('/about')
+//     onScrollMoreClick?.()
+//   }
+
+
 'use client'
 
 import { useState, useEffect } from 'react'
@@ -126,7 +156,7 @@ import AboutPage from '../about/page'
 import { useRouter } from 'next/navigation'
 
 interface HomePageProps {
-  onScrollMoreClick?: () => void;
+  onScrollMoreClick?: () => void
 }
 
 export default function HomePage({ onScrollMoreClick }: HomePageProps) {
@@ -145,7 +175,7 @@ export default function HomePage({ onScrollMoreClick }: HomePageProps) {
   const handleScrollMore = () => {
     setShowAbout(true)
     router.push('/about')
-    onScrollMoreClick?.()
+    onScrollMoreClick?.() // safely call the prop if defined
   }
 
   return (
