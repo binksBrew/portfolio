@@ -7,25 +7,32 @@ import Link from 'next/link'
 const blogs = {
   cybersecurity: [
     {
-      title: 'Cybersecurity Blog 1',
+      title: 'CSRF in Profile Update Endpoint- H1',
       description:
-        'I uncover hidden flaws and secure systems across digital landscapes. Cybersecurity isn’t a choice—it’s a necessity.',
+        'The https://target.com website is vulnerable to a CSRF attack that allows an attacker to modify a victim's profile information.',
       image: '/cyberblog.jpg',
-      href: '/blog/cyber-1',
+      href: 'https://medium.com/@sangpalisha/csrf-in-profile-update-endpoint-ddaf0295c217',
     },
     {
-      title: 'Cybersecurity Blog 2',
+      title: 'Cross-Site Request Forgery',
       description:
-        'Bug bounty adventures: From recon to exploit. Securing the web, one report at a time.',
+        'We will see how CSRF can be found, exploited, bypassed and the methodology for it in this article.',
       image: '/cyberblog.jpg',
-      href: '/blog/cyber-2',
+      href: 'https://medium.com/@sangpalisha/cross-site-request-forgery-820e0b2f20d6',
     },
     {
-      title: 'Cybersecurity Blog 3',
+      title: 'One Click Account takeover- H1',
       description:
-        'How breaking things ethically helped me build stronger systems.',
+        'Another CSRF bounty — by removing the CSRF token and current password from the request, an attacker could change any user’s password without their knowledge. This led to a full account takeover with just one click.',
       image: '/cyberblog.jpg',
-      href: '/blog/cyber-3',
+      href: 'https://medium.com/@sangpalisha/one-click-account-takeover-38db9005533c',
+    },
+    {
+      title: 'Over The Wire — bandit level 0–10',
+      description:
+        'Here’s how I solved levels 0 to 10, with simple explanations anyone can follow.',
+      image: '/cyberblog.jpg',
+      href: 'https://medium.com/@sangpalisha/over-the-wire-bandit-level-0-10-f86bc733cf9d',
     },
   ],
   nature: [
