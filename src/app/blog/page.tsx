@@ -9,7 +9,7 @@ const blogs = {
     {
       title: 'CSRF in Profile Update Endpoint- H1',
       description:
-        'The https://target.com website is vulnerable to a CSRF attack that allows an attacker to modify a victim's profile information.',
+        'The https://target.com website is vulnerable to a CSRF attack that allows an attacker to modify a victim profile information.',
       image: '/cyberblog.jpg',
       href: 'https://medium.com/@sangpalisha/csrf-in-profile-update-endpoint-ddaf0295c217',
     },
