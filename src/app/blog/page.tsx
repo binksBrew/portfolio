@@ -67,12 +67,18 @@ export default function BlogPage() {
     <div className="relative min-h-screen overflow-hidden">
       {/* === Blurred Background Gradient === */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute w-[1000px] h-[1000px] bg-[#08503E] blur-[800px] rounded-full left-[-500px] bottom-[-400px] opacity-[0.7]" />
+        {/* <div className="absolute w-[1000px] h-[1000px] bg-[#08503E] blur-[800px] rounded-full left-[-500px] bottom-[-400px] opacity-[0.7]" />
         <div className="absolute w-[1000px] h-[1000px] bg-[#52816d] blur-[800px] rounded-full left-[-400px] top-[-350px] opacity-[0.7]" />
         <div className="absolute w-[1000px] h-[1000px] bg-[#091F17] blur-[800px] rounded-full right-[-450px] bottom-[-300px] opacity-[0.65]" />
         <div className="absolute w-[1000px] h-[1000px] bg-[#307039] blur-[800px] rounded-full right-[-500px] top-[-400px] opacity-[0.65]" />
-        <div className="absolute w-[900px] h-[900px] bg-[#f7ede3] blur-[700px] rounded-full left-[420px] top-[100px] opacity-[0.65]" />
+        <div className="absolute w-[900px] h-[900px] bg-[#f7ede3] blur-[700px] rounded-full left-[420px] top-[100px] opacity-[0.65]" /> */}
+        <div className="absolute w-[1500px] h-[1000px] bg-[#08503E] blur-[800px] rounded-full left-[-500px] bottom-[-400px] opacity-[0.7]" />
+        <div className="absolute w-[1600px] h-[1000px] bg-[#52816d] blur-[800px] rounded-full left-[-400px] top-[-350px] opacity-[0.4]" />
+        <div className="absolute w-[1500px] h-[1000px] bg-[#091F17] blur-[800px] rounded-full right-[-450px] bottom-[-300px] opacity-[0.75]" />
+        <div className="absolute w-[1200px] h-[1000px] bg-[#307039] blur-[800px] rounded-full right-[-500px] top-[-400px] opacity-[0.65]" />
+        <div className="absolute w-[950px] h-[900px] bg-[#f7ede3] blur-[700px] rounded-full left-[420px] top-[100px] opacity-[0.3]" />
       </div>
+      
 
       {/* === Foreground Blog UI === */}
       <div className="relative z-10 px-12 py-28 text-white font-ibm">

@@ -31,11 +31,16 @@ export default function HomePage() {
         }`}
       >
         {/* Background Blurs */}
-        <div className="absolute w-[1000px] h-[1000px] bg-[#08503E] blur-[800px] rounded-full left-[-500px] bottom-[-400px] z-0 opacity-[0.7]" />
+        {/* <div className="absolute w-[1000px] h-[1000px] bg-[#08503E] blur-[800px] rounded-full left-[-500px] bottom-[-400px] z-0 opacity-[0.7]" />
         <div className="absolute w-[1000px] h-[1000px] bg-[#324A3C] blur-[800px] rounded-full left-[-400px] top-[-350px] z-0 opacity-[0.95]" />
         <div className="absolute w-[1000px] h-[1000px] bg-[#091F17] blur-[800px] rounded-full right-[-450px] bottom-[-300px] z-0 opacity-[0.95]" />
         <div className="absolute w-[1000px] h-[1000px] bg-[#307039] blur-[800px] rounded-full right-[-500px] top-[-400px] z-0 opacity-[0.65]" />
-        <div className="absolute w-[900px] h-[900px] bg-[#f7ede3] blur-[700px] rounded-full left-[420px] top-[100px] z-0 opacity-[0.35]" />
+        <div className="absolute w-[900px] h-[900px] bg-[#f7ede3] blur-[700px] rounded-full left-[420px] top-[100px] z-0 opacity-[0.35]" /> */}
+        <div className="absolute w-[1500px] h-[1000px] bg-[#08503E] blur-[800px] rounded-full left-[-500px] bottom-[-400px] opacity-[0.9]" />
+        <div className="absolute w-[1600px] h-[1000px] bg-[#52816d] blur-[800px] rounded-full left-[-400px] top-[-350px] opacity-[0]" />
+        <div className="absolute w-[1500px] h-[1000px] bg-[#091F17] blur-[800px] rounded-full right-[-450px] bottom-[-300px] opacity-[0.75]" />
+        <div className="absolute w-[1100px] h-[900px] bg-[#307039] blur-[800px] rounded-full right-[-500px] top-[-400px] opacity-[0.65]" />
+        <div className="absolute w-[800px] h-[900px] bg-[#f7ede3] blur-[700px] rounded-full left-[420px] top-[100px] opacity-[0.3]" />
 
         {/* ISHA Text */}
         <div

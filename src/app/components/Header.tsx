@@ -6,7 +6,9 @@ import { cn } from '../utils/cn' // optional: utility to combine classes
 const navItems = [
   { label: 'ABOUT', href: '/about' },
   { label: 'EXPERIENCE', href: '/experience' },
-  { label: 'BLOG', href: '/blog' },
+  // { label: 'BLOG', href: '/blog' },
+  { label: 'BLOG', href: 'https://medium.com/@sangpalisha' },
+
 ]
 
 export default function Header() {
